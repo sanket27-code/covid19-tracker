@@ -1,0 +1,33 @@
+.chart_container{
+    width:80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
+.Line_chart_container{
+    width: 90%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+}
+.Line_chart_container .Line_chart{
+    width: 100%;
+    height: 50% !important;
+}
+
+@media (max-width: 550px){
+    .chart_container{
+        width: 100%;
+        height: 80vh;
+    }
+    .chart_container .Line_chart_container{
+        width: 100%;
+        height: 70vh;
+    }
+    .chart_container .Line_chart_container .Line_chart{
+        width: 80%;
+        height: 100%;
+    }
+}

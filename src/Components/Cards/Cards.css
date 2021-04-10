@@ -1,0 +1,92 @@
+.dates{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -40px;
+}
+.dates h3{
+    display: inline-block;
+    color: limegreen;
+    font-size: 18px;
+    padding: 5px 10px;
+    margin-right: 20px;
+    font-weight: 700;
+    font-family: 'Noto Serif', serif;
+}
+.dates h3 span{
+    color: deepskyblue;
+}
+.Cards_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70%;
+    margin-top: 5%;
+}
+.card_row1, .card_row2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.Card_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 180px;
+    background-color: rgba(252, 249, 249, 0.808);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 0 0 10px 10px;
+    margin: 0 40px 0 40px;
+}
+.Card_box .Count{
+    padding: 3px;
+    text-align: center;
+}
+
+.Card_box .Count .count_number{
+    font-size: 28px;
+    font-family: 'Noto Serif', serif;
+    padding: 5px;
+    font-weight: 600;
+}
+.Card_box .icon{
+    padding: 0 10px 0 10px;
+}
+.Card_box .icon .emogi{
+    font-size: 50px;
+    color: rgb(184, 17, 17);
+}
+.Card_box .description{
+    padding: 0 10px 0 5px;
+}
+.Card_box .description p{
+    font-size: 12px;
+    font-family: 'Andika New Basic', sans-serif;
+}
+.Card_box .description p span{
+    color: rgb(247, 145, 12);
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+@media (max-width: 650px){
+    .card_row1, .card_row2{
+        flex-direction: column;
+        margin: 0px;
+    }
+    .Card_box{
+        width: 250px;
+        height: 180px;
+        margin: 20px 20px 10px;
+    }
+    .dates h3{
+        font-size: 12px;
+    }
+    .dates h3 span{
+        display: block;
+        font-size: 14px;
+    }
+}

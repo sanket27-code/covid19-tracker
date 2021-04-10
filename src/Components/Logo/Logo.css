@@ -1,0 +1,16 @@
+.Logo{
+    display: flex;
+    justify-content: center;
+}
+.Logo img{
+    width: 500px;
+    height: 200px;
+    background-color: white;
+    margin: -3% auto 0%;
+}
+
+@media (max-width: 550px){
+    .Logo img{
+        width: 100%;
+    }
+}
